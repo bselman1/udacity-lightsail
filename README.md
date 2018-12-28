@@ -22,3 +22,8 @@ http://35.172.137.85.xip.io
 
 ## Additional software/resources
   - Used the [mod_wsgi package](https://pypi.org/project/mod_wsgi/) to build and install python3.7 compatible version of mod_wsgi for Apache.
+  
+## Logging in as grader
+```ssh -p 2200 -i grader-key grader@35.172.137.85.xip.io```
+
+where grader-key is the path to the provided grader rsa key
